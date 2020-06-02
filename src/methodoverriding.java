@@ -9,7 +9,7 @@ class Parent
 class Child extends Parent
 {
 	int age=20;
-	 final void print()
+	 void print()
 	{
 		System.out.println("This is child class and age is "+age);
 	}
@@ -22,7 +22,7 @@ public class methodoverriding {
 		Parent p=new Parent();
 		Child c=new Child();
 		p.print();
-		c.print();
+		c.print();//child method is given preference and function overriding is called as run time polymorphism.
 		
 		
 	}
